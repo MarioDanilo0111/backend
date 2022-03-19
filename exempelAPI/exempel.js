@@ -1,4 +1,4 @@
-//Funktion för att hämta data från strapi CMS
+//Funktion för att hämta data från strapi till wordpress
 async function getDataFromStrapi(){
     let url = "http://localhost:1337/api/products";
 

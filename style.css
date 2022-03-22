@@ -1,0 +1,39 @@
+#output{
+  
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  justify-content: space-between;
+  padding:20px;
+}
+.grid-item {
+  
+  background-color: grey;
+  width: 20vw;
+  height: 450px;
+  margin-top: 50px;
+}
+.item-info{
+  font-size: 15px;
+  margin-top:20px;
+  padding-left: 10px;
+}
+.item-info div{
+  margin-top: 5px;
+}
+.item-title{
+  width:80%;
+}
+.laptop-image{
+  
+  display:flex;
+  justify-content: center;
+}
+.grid-item img{
+ 
+  width: 100%;
+  
+  
+}
+
+
